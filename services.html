@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les services de marketing digital de DigitalBoost: SEO, publicité en ligne, réseaux sociaux et création de contenu pour PME et startups.">
+    <title>Services de Marketing Digital | DigitalBoost</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/+esm"
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg viewBox="0 0 200 50" width="180" height="45">
+                        <text x="0" y="35" class="logo-text">Digital<tspan class="boost">Boost</tspan></text>
+                    </svg>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero services-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h1>Nos services de marketing digital</h1>
+                    <p>Des solutions personnalisées pour propulser votre entreprise vers le succès digital.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="seo" class="service-detail">
+            <div class="container">
+                <div class="service-grid">
+                    <div class="service-content">
+                        <span class="service-icon-large"><i class="fas fa-search"></i></span>
+                        <h2>SEO - Référencement naturel</h2>
+                        <p>Un référencement optimisé est la clé pour être visible sur les moteurs de recherche et attirer un trafic qualifié vers votre site web.</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Audit SEO complet de votre site</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Optimisation technique (vitesse, structure, mobile)</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Recherche de mots-clés stratégiques</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Optimisation du contenu et de la structure</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Stratégie de netlinking</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Rapports d'évolution et recommandations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-image">
+                        <svg viewBox="0 0 500 400" class="service-illustration">
+                            <rect x="100" y="150" width="300" height="40" rx="5" fill="#e0e0e0" />
+                            <rect x="100" y="150" width="200" height="40" rx="5" fill="#4285f4" />
+                            <rect x="100" y="200" width="300" height="20" rx="5" />
+                            <rect x="100" y="230" width="300" height="20" rx="5" fill="#e0e9ff" />
+                            <rect x="100" y="260" width="300" height="20" rx="5" fill="#e0e9ff" />
+                            <circle cx="120" cy="110" r="40" fill="#fbbc05" opacity="0.7" />
+                            <path d="M105,125 L80,150" stroke="#333" stroke-width="4" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ads" class="service-detail alt-bg">
+            <div class="container">
+                <div class="service-grid reverse">
+                    <div class="service-image">
+                        <svg viewBox="0 0 500 400" class="service-illustration">
+                            <rect x="100" y="100" width="150" height="80" rx="5" fill="#ea4335" opacity="0.8" />
+                            <text x="175" y="145" text-anchor="middle" fill="white" font-size="14">PUBLICITÉ</text>
+                            <rect x="280" y="100" width="120" height="80" rx="5" fill="#4285f4" opacity="0.8" />
+                            <text x="340" y="145" text-anchor="middle" fill="white" font-size="14">ANNONCE</text>
+                            <rect x="100" y="220" width="300" height="60" rx="5" fill="#34a853" opacity="0.8" />
+                            <text x="250" y="255" text-anchor="middle" fill="white" font-size="14">CAMPAGNE</text>
+                            <rect x="170" y="300" width="160" height="40" rx="20" fill="#fbbc05" opacity="0.8" />
+                            <text x="250" y="325" text-anchor="middle" fill="white" font-size="14">CONVERSIONS</text>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <span class="service-icon-large"><i class="fas fa-ad"></i></span>
+                        <h2>Publicité en ligne</h2>
+                        <p>Nos campagnes publicitaires ciblées vous permettent d'atteindre rapidement votre audience et de générer un retour sur investissement mesurable.</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Campagnes Google Ads (Search, Display, Shopping)</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Publicités sur les réseaux sociaux (Facebook, Instagram, LinkedIn)</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Ciblage précis selon démographie, intérêts et comportements</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Création de visuels et textes publicitaires</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Optimisation continue des campagnes</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Suivi des conversions et rapports de performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="social" class="service-detail">
+            <div class="container">
+                <div class="service-grid">
+                    <div class="service-content">
+                        <span class="service-icon-large"><i class="fas fa-share-alt"></i></span>
+                        <h2>Gestion des réseaux sociaux</h2>
+                        <p>Une présence forte sur les réseaux sociaux est essentielle pour construire votre communauté, engager votre audience et renforcer votre marque.</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Stratégie personnalisée par plateforme (Facebook, Instagram, LinkedIn, Twitter)</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Calendrier éditorial et création de contenu</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Publication et gestion régulière</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Engagement avec votre communauté</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Veille concurrentielle et sectorielle</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Analyse des performances et ajustements stratégiques</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-image">
+                        <svg viewBox="0 0 500 400" class="service-illustration">
+                            <circle cx="250" cy="200" r="100" fill="#e0e9ff" />
+                            <circle cx="180" cy="160" r="30" fill="#4285f4" opacity="0.8" />
+                            <text x="180" y="165" text-anchor="middle" fill="white" font-size="12">f</text>
+                            <circle cx="250" cy="160" r="30" fill="#ea4335" opacity="0.8" />
+                            <text x="250" y="165" text-anchor="middle" fill="white" font-size="12">in</text>
+                            <circle cx="320" cy="160" r="30" fill="#34a853" opacity="0.8" />
+                            <text x="320" y="165" text-anchor="middle" fill="white" font-size="12">tw</text>
+                            <circle cx="180" cy="240" r="30" fill="#fbbc05" opacity="0.8" />
+                            <text x="180" y="245" text-anchor="middle" fill="white" font-size="12">ig</text>
+                            <circle cx="250" cy="240" r="30" fill="#4285f4" opacity="0.8" />
+                            <text x="250" y="245" text-anchor="middle" fill="white" font-size="12">yt</text>
+                            <circle cx="320" cy="240" r="30" fill="#ea4335" opacity="0.8" />
+                            <text x="320" y="245" text-anchor="middle" fill="white" font-size="12">p</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="content" class="service-detail alt-bg">
+            <div class="container">
+                <div class="service-grid reverse">
+                    <div class="service-image">
+                        <svg viewBox="0 0 500 400" class="service-illustration">
+                            <rect x="100" y="100" width="300" height="200" rx="10" fill="#e0e9ff" />
+                            <rect x="120" y="120" width="260" height="20" rx="5" fill="#4285f4" opacity="0.8" />
+                            <rect x="120" y="150" width="260" height="10" rx="5" fill="#333" opacity="0.3" />
+                            <rect x="120" y="170" width="260" height="10" rx="5" fill="#333" opacity="0.3" />
+                            <rect x="120" y="190" width="260" height="10" rx="5" fill="#333" opacity="0.3" />
+                            <rect x="120" y="210" width="260" height="10" rx="5" fill="#333" opacity="0.3" />
+                            <rect x="120" y="230" width="180" height="10" rx="5" fill="#333" opacity="0.3" />
+                            <circle cx="340" cy="250" r="30" fill="#34a853" opacity="0.8" />
+                            <text x="340" y="255" text-anchor="middle" fill="white" font-size="20">+</text>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <span class="service-icon-large"><i class="fas fa-pencil-alt"></i></span>
+                        <h2>Création de contenu</h2>
+                        <p>Un contenu de qualité est au cœur de toute stratégie digitale réussie. Il renforce votre expertise, améliore votre SEO et engage votre audience.</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Stratégie de contenu basée sur vos objectifs</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Rédaction d'articles de blog optimisés SEO</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Création de contenus pour réseaux sociaux</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Rédaction de newsletters et emails</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Création de livres blancs et guides</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Production de contenus visuels (infographies, visuels)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-section">
+            <div class="container">
+                <h2>Nos formules</h2>
+                <p class="pricing-intro">Des solutions adaptées à tous les budgets pour propulser votre business.</p>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Starter</h3>
+                            <div class="price">
+                                <span class="amount">499€</span>
+                                <span class="period">/mois</span>
+                            </div>
+                            <p>Idéal pour les petites entreprises qui débutent dans le digital</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Audit SEO de base</li>
+                                <li><i class="fas fa-check"></i> Gestion d'un réseau social</li>
+                                <li><i class="fas fa-check"></i> 2 articles de blog par mois</li>
+                                <li><i class="fas fa-check"></i> Campagne Google Ads basique</li>
+                                <li><i class="fas fa-times"></i> Stratégie marketing personnalisée</li>
+                                <li><i class="fas fa-times"></i> Rapport de performance avancé</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="pricing-button">Commencer</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="pricing-tag">Populaire</div>
+                        <div class="pricing-header">
+                            <h3>Business</h3>
+                            <div class="price">
+                                <span class="amount">999€</span>
+                                <span class="period">/mois</span>
+                            </div>
+                            <p>Pour les entreprises qui souhaitent accélérer leur croissance digitale</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Audit SEO complet</li>
+                                <li><i class="fas fa-check"></i> Gestion de 3 réseaux sociaux</li>
+                                <li><i class="fas fa-check"></i> 4 articles de blog par mois</li>
+                                <li><i class="fas fa-check"></i> Campagnes Google Ads & Facebook Ads</li>
+                                <li><i class="fas fa-check"></i> Stratégie marketing personnalisée</li>
+                                <li><i class="fas fa-times"></i> Rapport de performance avancé</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="pricing-button">Commencer</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Premium</h3>
+                            <div class="price">
+                                <span class="amount">1999€</span>
+                                <span class="period">/mois</span>
+                            </div>
+                            <p>Solution complète pour maximiser votre impact digital</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Audit SEO avancé</li>
+                                <li><i class="fas fa-check"></i> Gestion de tous vos réseaux sociaux</li>
+                                <li><i class="fas fa-check"></i> 8 articles de blog par mois</li>
+                                <li><i class="fas fa-check"></i> Campagnes publicitaires complètes</li>
+                                <li><i class="fas fa-check"></i> Stratégie marketing personnalisée</li>
+                                <li><i class="fas fa-check"></i> Rapport de performance avancé</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="pricing-button">Commencer</a>
+                    </div>
+                </div>
+                <div class="custom-plan">
+                    <h3>Besoin d'un plan sur mesure?</h3>
+                    <p>Nous créons des solutions entièrement personnalisées pour répondre à vos besoins spécifiques.</p>
+                    <a href="contact.html" class="custom-plan-button">Contactez-nous</a>
+                </div>
+            </div>
+            <div class="custom-plan">
+                <h3>Besoin d'un plan sur mesure?</h3>
+                <p>Nous créons des solutions entièrement personnalisées pour répondre à vos besoins spécifiques.</p>
+                <a href="contact.html" class="custom-plan-button">Contactez-nous</a>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Prêt à transformer votre présence digitale?</h2>
+                    <p>Contactez-nous dès aujourd'hui pour discuter de votre projet et obtenir un devis personnalisé.</p>
+                    <a href="contact.html" class="cta-button">Demandez un devis gratuit</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 200 50" width="150" height="38">
+                            <text x="0" y="35" class="logo-text">Digital<tspan class="boost">Boost</tspan></text>
+                        </svg>
+                    </div>
+                    <p>Propulsez votre entreprise dans l'ère digitale avec nos stratégies de marketing digital innovantes et efficaces.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Nos services</h3>
+                    <ul>
+                        <li><a href="services.html#seo">SEO</a></li>
+                        <li><a href="services.html#ads">Publicité en ligne</a></li>
+                        <li><a href="services.html#social">Réseaux sociaux</a></li>
+                        <li><a href="services.html#content">Création de contenu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@digitalboost.fr</p>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Digitale, 75000 Paris</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 DigitalBoost - Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="chat-widget" class="chat-widget">
+        <div class="chat-header">
+            <h3>Besoin d'aide?</h3>
+            <button id="close-chat"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chat-messages">
+            <div class="message bot">
+                <p>Bonjour! Comment puis-je vous aider aujourd'hui?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-message" placeholder="Tapez votre message...">
+            <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <button id="chat-button" class="chat-button">
+        <i class="fas fa-comments"></i>
+    </button>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>

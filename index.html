@@ -1,0 +1,259 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex - Développeur web junior spécialisé en UX/UI. Découvrez mes projets et compétences en développement web moderne.">
+    <title>Alex | Développeur Web Junior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/+esm"
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg viewBox="0 0 200 50" width="180" height="45">
+                        <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                    </svg>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Développeur web junior passionné par la création de sites modernes et interactifs</h1>
+                    <p>Bienvenue sur mon portfolio ! Je suis Alex, un développeur web junior spécialisé en UX/UI, avec une passion pour créer des expériences utilisateurs intuitives et élégantes.</p>
+                    <a href="projets.html" class="cta-button">Découvrez mes projets</a>
+                </div>
+                <div class="hero-visual">
+                    <svg viewBox="0 0 500 400" class="hero-illustration">
+                        <circle cx="250" cy="200" r="150" fill="#e0e9ff" />
+                        <rect x="175" y="125" width="150" height="150" rx="20" fill="#4285f4" opacity="0.7" />
+                        <text x="250" y="205" text-anchor="middle" fill="white" font-size="20" font-weight="bold">&lt;/&gt;</text>
+                        <circle cx="250" cy="200" r="60" fill="#34a853" opacity="0.7" />
+                        <text x="250" y="208" text-anchor="middle" fill="white" font-size="24" font-weight="bold">A</text>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <h2>À propos de moi</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <svg viewBox="0 0 300 300" class="profile-illustration">
+                            <circle cx="150" cy="120" r="80" fill="#4285f4" />
+                            <rect x="70" y="200" width="160" height="100" rx="10" fill="#4285f4" />
+                            <circle cx="150" cy="100" r="40" fill="#ffffff" />
+                            <rect x="130" y="120" width="40" height="20" rx="5" fill="#ffffff" />
+                        </svg>
+                    </div>
+                    <div class="about-content">
+                        <h3>Qui suis-je?</h3>
+                        <p>Je suis un développeur web junior basé à Paris, passionné par les technologies front-end et le design UX/UI. Après une formation intensive en développement web, je me suis spécialisé dans la création d'interfaces utilisateurs intuitives et esthétiques.</p>
+                        <p>J'aime relever des défis techniques et apprendre continuellement de nouvelles technologies pour rester à la pointe de l'innovation.</p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Formation en développement web fullstack</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-code"></i>
+                                <span>Spécialisation en front-end et UX/UI</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Basé à Paris, France</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-projects">
+            <div class="container">
+                <h2>Projets récents</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <svg viewBox="0 0 300 200" class="project-illustration">
+                                <rect width="300" height="200" fill="#e0e9ff" />
+                                <rect x="50" y="50" width="200" height="100" rx="10" fill="#4285f4" opacity="0.7" />
+                                <text x="150" y="105" text-anchor="middle" fill="white" font-size="14">E-commerce</text>
+                            </svg>
+                        </div>
+                        <h3>Site E-commerce</h3>
+                        <p>Développement d'une boutique en ligne responsive avec panier d'achat et système de paiement.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                        <a href="projets.html#ecommerce" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <svg viewBox="0 0 300 200" class="project-illustration">
+                                <rect width="300" height="200" fill="#e0e9ff" />
+                                <rect x="50" y="50" width="200" height="100" rx="10" fill="#34a853" opacity="0.7" />
+                                <text x="150" y="105" text-anchor="middle" fill="white" font-size="14">Dashboard</text>
+                            </svg>
+                        </div>
+                        <h3>Dashboard Analytique</h3>
+                        <p>Interface de tableau de bord pour visualiser des données analytiques avec graphiques interactifs.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>CSS</span>
+                            <span>API</span>
+                        </div>
+                        <a href="projets.html#dashboard" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <svg viewBox="0 0 300 200" class="project-illustration">
+                                <rect width="300" height="200" fill="#e0e9ff" />
+                                <rect x="50" y="50" width="200" height="100" rx="10" fill="#fbbc05" opacity="0.7" />
+                                <text x="150" y="105" text-anchor="middle" fill="white" font-size="14">App Mobile</text>
+                            </svg>
+                        </div>
+                        <h3>Application Mobile</h3>
+                        <p>Application progressive (PWA) pour la gestion de tâches et la planification de projets.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="projets.html#mobile" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="projects-cta">
+                    <a href="projets.html" class="secondary-button">Voir tous les projets</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-overview">
+            <div class="container">
+                <h2>Mes compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML/CSS</h3>
+                        <p>Création de structures web sémantiques et stylisation avancée avec CSS3, Flexbox et Grid.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Développement d'interfaces interactives et dynamiques avec ES6+ et manipulations du DOM.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React</h3>
+                        <p>Création d'applications web modernes avec React, Redux et React Router.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Conception d'interfaces adaptatives offrant une expérience optimale sur tous les appareils.</p>
+                    </div>
+                </div>
+                <div class="skills-cta">
+                    <a href="competences.html" class="secondary-button">Voir toutes mes compétences</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Intéressé par une collaboration?</h2>
+                    <p>Je suis actuellement disponible pour des missions freelance et des opportunités d'emploi. N'hésitez pas à me contacter!</p>
+                    <a href="contact.html" class="cta-button">Contactez-moi</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 200 50" width="150" height="38">
+                            <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                        </svg>
+                    </div>
+                    <p>Développeur web junior passionné par la création d'interfaces modernes, intuitives et performantes.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Réseaux</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6a0b060f122a0f120b071a060f44090507">[email&#160;protected]</a></p>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Alex - Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="scripts.js"></script>
+</body>
+</html>

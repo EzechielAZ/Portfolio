@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les compétences techniques d'Alex, développeur web junior spécialisé en UX/UI, maîtrisant HTML, CSS, JavaScript, React et plus encore.">
+    <title>Mes Compétences | Alex - Développeur Web Junior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/+esm"
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg viewBox="0 0 200 50" width="180" height="45">
+                        <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                    </svg>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="competences.html" class="active">Compétences</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero skills-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h1>Mes compétences</h1>
+                    <p>Découvrez les technologies et outils que je maîtrise pour créer des expériences web modernes et performantes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <div class="container">
+                <h2>Technologies Front-end</h2>
+                <div class="skills-group">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>HTML5</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Maîtrise avancée du HTML sémantique, des éléments structurels modernes, de l'accessibilité et des bonnes pratiques SEO.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>CSS3</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Expertise en CSS moderne, Flexbox, Grid, animations, transitions, et design responsive pour tous les appareils.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>JavaScript (ES6+)</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Solide maîtrise de JavaScript moderne, y compris les fonctionnalités ES6+, manipulation du DOM, fetch API, et programmation asynchrone.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>React</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Développement d'applications avec React, utilisation des hooks, context API, et intégration avec des librairies tierces.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-sass"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>SASS/SCSS</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Organisation du code CSS avec SASS/SCSS, utilisation des variables, mixins, fonctions et architecture modulaire.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section alt-bg">
+            <div class="container">
+                <h2>Technologies Back-end</h2>
+                <div class="skills-group">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>Node.js</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Création de serveurs et d'APIs RESTful avec Node.js et Express, intégration de bases de données et middlewares.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>MongoDB</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Conception et manipulation de bases de données NoSQL avec MongoDB, utilisation de Mongoose pour le schéma et la validation.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>Firebase</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Utilisation de Firebase pour l'authentification, le stockage de données en temps réel, l'hébergement et les fonctions cloud.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <div class="container">
+                <h2>Outils et environnements</h2>
+                <div class="skills-group">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>Git & GitHub</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Gestion de versions avec Git, collaboration sur GitHub, pull requests, résolution de conflits et branches.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-npm"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>NPM & Webpack</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Gestion de paquets avec NPM, configuration de Webpack pour l'optimisation et le bundling d'applications.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>Responsive Design</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Création d'interfaces adaptatives pour une expérience utilisateur optimale sur tous les appareils.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fas fa-universal-access"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>Accessibilité Web</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Application des standards d'accessibilité WCAG pour créer des sites web inclusifs et utilisables par tous.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section alt-bg">
+            <div class="container">
+                <h2>Design UX/UI</h2>
+                <div class="skills-group">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>Figma</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Création de maquettes UI, prototypes interactifs et design systems avec Figma pour des interfaces modernes.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <div class="skill-icon">
+                                <i class="far fa-object-group"></i>
+                            </div>
+                            <div class="skill-details">
+                                <h3>Principes UX</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Application des principes de conception UX, des parcours utilisateurs, et réalisation de tests d'utilisabilité.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certifications-section">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>Développeur Web Full Stack</h3>
+                            <p class="certification-issuer">OpenClassrooms</p>
+                            <p class="certification-date">2022</p>
+                        </div>
+                    </div>
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>JavaScript Modern ES6+</h3>
+                            <p class="certification-issuer">Udemy</p>
+                            <p class="certification-date">2022</p>
+                        </div>
+                    </div>
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>React - The Complete Guide</h3>
+                            <p class="certification-issuer">Udemy</p>
+                            <p class="certification-date">2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Prêt à collaborer sur votre prochain projet?</h2>
+                    <p>Je suis disponible pour des missions freelance ou des opportunités d'emploi. N'hésitez pas à me contacter!</p>
+                    <a href="contact.html" class="cta-button">Contactez-moi</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 200 50" width="150" height="38">
+                            <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                        </svg>
+                    </div>
+                    <p>Développeur web junior passionné par la création d'interfaces modernes, intuitives et performantes.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Réseaux</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> alex@example.com</p>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Alex - Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>

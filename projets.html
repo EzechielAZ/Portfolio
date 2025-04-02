@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez le portfolio de projets d'Alex, développeur web junior spécialisé en UX/UI. Projets web et mobile réalisés avec React, JavaScript et bien plus.">
+    <title>Mes Projets | Alex - Développeur Web Junior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/+esm"
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg viewBox="0 0 200 50" width="180" height="45">
+                        <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                    </svg>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projets.html" class="active">Projets</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero projects-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h1>Mes projets</h1>
+                    <p>Découvrez une sélection de mes réalisations récentes en développement web et mobile.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ecommerce" class="project-detail">
+            <div class="container">
+                <div class="project-grid">
+                    <div class="project-content">
+                        <h2>Site E-commerce</h2>
+                        <p class="project-date"><i class="far fa-calendar-alt"></i> Réalisé en 2023</p>
+                        <p>Conception et développement d'une boutique en ligne complète pour une marque de vêtements éthiques. Le site offre une expérience utilisateur fluide sur tous les appareils, avec un système de panier d'achat, la gestion des comptes utilisateurs et l'intégration d'une passerelle de paiement sécurisée.</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Interface utilisateur intuitive avec filtres de recherche avancés</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Panier d'achat persistant avec localStorage</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Intégration de Stripe pour les paiements sécurisés</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Panel administrateur pour la gestion des produits</p>
+                            </div>
+                        </div>
+                        <div class="tech-stack">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                                <span>Stripe API</span>
+                                <span>JWT</span>
+                                <span>SCSS</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" target="_blank" class="project-button"><i class="fab fa-github"></i> Voir le code</a>
+                            <a href="#" target="_blank" class="project-button"><i class="fas fa-external-link-alt"></i> Voir le site</a>
+                        </div>
+                    </div>
+                    <div class="project-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide active">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" />
+                                    <rect x="80" y="80" width="640" height="60" rx="5" fill="#4285f4" opacity="0.2" />
+                                    <rect x="100" y="180" width="180" height="220" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="310" y="180" width="180" height="220" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="520" y="180" width="180" height="220" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <text x="400" y="115" text-anchor="middle" fill="#333" font-size="16">E-commerce - Page d'accueil</text>
+                                </svg>
+                            </div>
+                            <div class="carousel-slide">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" />
+                                    <rect x="80" y="80" width="640" height="60" rx="5" fill="#4285f4" opacity="0.2" />
+                                    <rect x="80" y="180" width="400" height="220" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="520" y="180" width="200" height="220" rx="5" fill="#34a853" opacity="0.3" />
+                                    <text x="400" y="115" text-anchor="middle" fill="#333" font-size="16">E-commerce - Page produit</text>
+                                </svg>
+                            </div>
+                            <div class="carousel-slide">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" />
+                                    <rect x="80" y="80" width="640" height="60" rx="5" fill="#4285f4" opacity="0.2" />
+                                    <rect x="80" y="180" width="300" height="220" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="420" y="180" width="300" height="100" rx="5" fill="#fbbc05" opacity="0.3" />
+                                    <rect x="420" y="300" width="300" height="100" rx="5" fill="#ea4335" opacity="0.3" />
+                                    <text x="400" y="115" text-anchor="middle" fill="#333" font-size="16">E-commerce - Panier</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                            <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dashboard" class="project-detail alt-bg">
+            <div class="container">
+                <div class="project-grid reverse">
+                    <div class="project-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide active">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" />
+                                    <rect x="80" y="80" width="200" height="340" rx="5" fill="#34a853" opacity="0.2" />
+                                    <rect x="300" y="80" width="420" height="160" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="300" y="260" width="200" height="160" rx="5" fill="#fbbc05" opacity="0.3" />
+                                    <rect x="520" y="260" width="200" height="160" rx="5" fill="#ea4335" opacity="0.3" />
+                                    <text x="400" y="45" text-anchor="middle" fill="#333" font-size="16">Dashboard - Vue principale</text>
+                                </svg>
+                            </div>
+                            <div class="carousel-slide">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" />
+                                    <rect x="80" y="80" width="200" height="340" rx="5" fill="#34a853" opacity="0.2" />
+                                    <rect x="300" y="80" width="420" height="340" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <text x="400" y="45" text-anchor="middle" fill="#333" font-size="16">Dashboard - Graphiques détaillés</text>
+                                </svg>
+                            </div>
+                            <div class="carousel-slide">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="50" y="50" width="700" height="400" rx="10" fill="#ffffff" />
+                                    <rect x="80" y="80" width="200" height="340" rx="5" fill="#34a853" opacity="0.2" />
+                                    <rect x="300" y="80" width="420" height="80" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="300" y="180" width="420" height="240" rx="5" fill="#fbbc05" opacity="0.3" />
+                                    <text x="400" y="45" text-anchor="middle" fill="#333" font-size="16">Dashboard - Gestion utilisateurs</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                            <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h2>Dashboard Analytique</h2>
+                        <p class="project-date"><i class="far fa-calendar-alt"></i> Réalisé en 2023</p>
+                        <p>Conception et développement d'un tableau de bord analytique pour une entreprise SaaS permettant de visualiser et d'analyser les données clients en temps réel. L'interface offre différentes visualisations de données et rapports personnalisables.</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Visualisations de données interactives (graphiques, diagrammes)</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Filtres dynamiques et recherche avancée</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Export de rapports au format PDF et CSV</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Système d'authentification et gestion des rôles</p>
+                            </div>
+                        </div>
+                        <div class="tech-stack">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>D3.js</span>
+                                <span>Chart.js</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" target="_blank" class="project-button"><i class="fab fa-github"></i> Voir le code</a>
+                            <a href="#" target="_blank" class="project-button"><i class="fas fa-external-link-alt"></i> Voir la démo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mobile" class="project-detail">
+            <div class="container">
+                <div class="project-grid">
+                    <div class="project-content">
+                        <h2>Application Mobile de Gestion de Tâches</h2>
+                        <p class="project-date"><i class="far fa-calendar-alt"></i> Réalisé en 2022</p>
+                        <p>Développement d'une application progressive (PWA) de gestion de tâches et de planification de projets, permettant aux utilisateurs d'organiser leur travail, de collaborer en équipe et de suivre l'avancement des projets en temps réel.</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Interface intuitive avec glisser-déposer pour la gestion des tâches</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Notifications push et synchronisation hors ligne</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Collaboration en temps réel entre membres d'équipe</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Rapports d'avancement et statistiques de productivité</p>
+                            </div>
+                        </div>
+                        <div class="tech-stack">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                                <span>Service Workers</span>
+                                <span>Push API</span>
+                                <span>IndexedDB</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" target="_blank" class="project-button"><i class="fab fa-github"></i> Voir le code</a>
+                            <a href="#" target="_blank" class="project-button"><i class="fas fa-external-link-alt"></i> Télécharger l'app</a>
+                        </div>
+                    </div>
+                    <div class="project-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide active">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="250" y="50" width="300" height="400" rx="20" fill="#ffffff" />
+                                    <rect x="270" y="80" width="260" height="50" rx="5" fill="#fbbc05" opacity="0.3" />
+                                    <rect x="270" y="150" width="260" height="70" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="270" y="240" width="260" height="70" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <rect x="270" y="330" width="260" height="70" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <text x="400" y="460" text-anchor="middle" fill="#333" font-size="16">App Mobile - Liste des tâches</text>
+                                </svg>
+                            </div>
+                            <div class="carousel-slide">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="250" y="50" width="300" height="400" rx="20" fill="#ffffff" />
+                                    <rect x="270" y="80" width="260" height="50" rx="5" fill="#fbbc05" opacity="0.3" />
+                                    <rect x="270" y="150" width="260" height="250" rx="5" fill="#4285f4" opacity="0.3" />
+                                    <text x="400" y="460" text-anchor="middle" fill="#333" font-size="16">App Mobile - Détail d'une tâche</text>
+                                </svg>
+                            </div>
+                            <div class="carousel-slide">
+                                <svg viewBox="0 0 800 500" class="carousel-illustration">
+                                    <rect width="800" height="500" fill="#e0e9ff" />
+                                    <rect x="250" y="50" width="300" height="400" rx="20" fill="#ffffff" />
+                                    <rect x="270" y="80" width="260" height="50" rx="5" fill="#fbbc05" opacity="0.3" />
+                                    <circle cx="400" cy="200" r="100" fill="#34a853" opacity="0.3" />
+                                    <rect x="300" y="320" width="200" height="40" rx="5" fill="#ea4335" opacity="0.3" />
+                                    <rect x="300" y="380" width="200" height="40" rx="5" fill="#ea4335" opacity="0.3" />
+                                    <text x="400" y="460" text-anchor="middle" fill="#333" font-size="16">App Mobile - Statistiques</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                            <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Vous avez un projet en tête?</h2>
+                    <p>Je serais ravi de collaborer avec vous pour donner vie à vos idées. Contactez-moi pour discuter de votre projet!</p>
+                    <a href="contact.html" class="cta-button">Contactez-moi</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 200 50" width="150" height="38">
+                            <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                        </svg>
+                    </div>
+                    <p>Développeur web junior passionné par la création d'interfaces modernes, intuitives et performantes.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Réseaux</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> alex@example.com</p>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Alex - Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>

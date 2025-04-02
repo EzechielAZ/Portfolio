@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Alex, développeur web junior, pour discuter de vos projets de développement web et mobile. Formulaire de contact et informations professionnelles.">
+    <title>Contact | Alex - Développeur Web Junior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/+esm"
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg viewBox="0 0 200 50" width="180" height="45">
+                        <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                    </svg>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero contact-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h1>Contactez-moi</h1>
+                    <p>Intéressé par une collaboration? N'hésitez pas à me contacter pour discuter de votre projet.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-container">
+                        <div class="form-header">
+                            <h2>Envoyez-moi un message</h2>
+                            <p>Remplissez le formulaire ci-dessous et je vous répondrai dans les plus brefs délais.</p>
+                        </div>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nom <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="subject">Sujet <span class="required">*</span></label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <div class="form-group full-width">
+                                <div class="captcha-container">
+                                    <div class="captcha">
+                                        <svg viewBox="0 0 200 60" width="200" height="60">
+                                            <rect width="200" height="60" fill="#f0f4fd" />
+                                            <path d="M20,30 Q40,10 60,30 T100,30 T140,30 T180,30" stroke="#4285f4" stroke-width="2" fill="none" />
+                                            <text x="30" y="35" font-family="Arial" font-size="20" fill="#333" transform="rotate(5, 30, 35)">A7X3</text>
+                                        </svg>
+                                    </div>
+                                    <input type="text" id="captcha" name="captcha" placeholder="Entrez le code ci-dessus" required>
+                                </div>
+                            </div>
+                            <button type="submit" class="submit-button">Envoyer le message</button>
+                        </form>
+                        <div id="form-success" class="form-success" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Message envoyé!</h3>
+                            <p>Merci pour votre message! Je vous contacterai très prochainement.</p>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-header">
+                                <h2>Informations de contact</h2>
+                                <p>Plusieurs façons de me joindre</p>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:alex@example.com">alex@example.com</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h3>Téléphone</h3>
+                                    <p><a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h3>Localisation</h3>
+                                    <p>Paris, France</p>
+                                    <p>Disponible pour des missions à distance</p>
+                                </div>
+                            </div>
+                            <div class="social-links-contact">
+                                <h3>Profils professionnels</h3>
+                                <div class="social-icons">
+                                    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="availability-section">
+            <div class="container">
+                <h2>Disponibilité</h2>
+                <div class="availability-content">
+                    <div class="availability-status">
+                        <div class="status-indicator available">
+                            <span class="status-dot"></span>
+                            <span class="status-text">Disponible pour de nouveaux projets</span>
+                        </div>
+                        <p>Je suis actuellement à la recherche de nouvelles opportunités, que ce soit pour des missions freelance, des projets ponctuels ou un emploi à temps plein.</p>
+                    </div>
+                    <div class="availability-types">
+                        <div class="availability-type">
+                            <div class="type-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="type-details">
+                                <h3>Emploi permanent</h3>
+                                <p>Intéressé par des postes de développeur front-end ou full-stack junior.</p>
+                            </div>
+                        </div>
+                        <div class="availability-type">
+                            <div class="type-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="type-details">
+                                <h3>Projets freelance</h3>
+                                <p>Disponible pour des projets de développement web et mobile à court ou moyen terme.</p>
+                            </div>
+                        </div>
+                        <div class="availability-type">
+                            <div class="type-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="type-details">
+                                <h3>Collaboration</h3>
+                                <p>Ouvert aux opportunités de collaboration avec d'autres développeurs ou agences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 200 50" width="150" height="38">
+                            <text x="0" y="35" class="logo-text">Alex<tspan class="boost">Dev</tspan></text>
+                        </svg>
+                    </div>
+                    <p>Développeur web junior passionné par la création d'interfaces modernes, intuitives et performantes.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Réseaux</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> alex@example.com</p>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Alex - Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
